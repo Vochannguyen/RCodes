@@ -1,0 +1,3 @@
+## Bar Graph with Totals
+totals=count(mpg,class)
+mpg %>% ggplot(aes(x=class,fill=class)) + geom_bar()+geom_text(aes(class,totals$n+2, label=totals$n, fill=NULL),data=totals)
