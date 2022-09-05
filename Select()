@@ -1,0 +1,9 @@
+## Select()
+# To use the select in R we must install GGRally
+
+install.packages(GGrally)
+library(GGrally)
+
+Install ggplot if you are having issues
+
+# Select always focuses on Columns
