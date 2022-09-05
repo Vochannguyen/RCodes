@@ -1,0 +1,8 @@
+df %>% filter(!is.na(Years)) #Filter out rows with missing Years
+
+## Filter()
+# Filter based on class and putting into a empty dataframe
+FIFA_Players %>% filter(Position =="LM" | Position =="LF")
+
+df=data.frame(filter(FIFA_Players,Position =="LM"|Position =="LF"))
+view(df)
