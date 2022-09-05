@@ -1,0 +1,3 @@
+mpg %>%
+arrange(manufacturer, cty) %>% 
+print(n = 30)
